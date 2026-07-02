@@ -35,8 +35,10 @@ public void test()
 
         driver.findElement(By.xpath("//input[@value='Login']"))
               .click();
+        Thread.sleep(4000);
 
         System.out.println("Login Successful");
+        System.out.println("login ok");
 
     } catch (Exception e) {
 
