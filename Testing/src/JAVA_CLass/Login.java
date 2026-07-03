@@ -41,6 +41,7 @@ public void test()
         System.out.println("login ok git hub");
         System.out.println("Added");
         System.out.println("new added");
+		System.out.println("code push kro");
 
     } catch (Exception e) {
 
