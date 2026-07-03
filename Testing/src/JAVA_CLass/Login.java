@@ -4,7 +4,15 @@ package JAVA_CLass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
@@ -23,7 +31,7 @@ public void setup()
 	}
 
 @Test
-public void test()
+public void test() throws IOException, InterruptedException
 {
 	try {
 
@@ -49,6 +57,12 @@ public void test()
         System.out.println("Test Failed");
         System.out.println(e.getMessage());
     }
+	Thread.sleep(3000);
+	File src =((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+	File dest = new File("C:\\Users\\manis\\git\\repository\\Testing\\screenshot\\screenshot.png");
+	Files.copy(src.toPath(), dest.toPath(), StandardCopyOption.REPLACE_EXISTING);
+	System.out.println("Screenshot succesfully");
+	
 
 }
 @AfterMethod
