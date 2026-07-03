@@ -58,11 +58,12 @@ public void test() throws IOException, InterruptedException
         System.out.println(e.getMessage());
     }
 	Thread.sleep(3000);
+	try {
 	File src =((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	File dest = new File("C:\\Users\\manis\\git\\repository\\Testing\\screenshot\\screenshot.png");
 	Files.copy(src.toPath(), dest.toPath(), StandardCopyOption.REPLACE_EXISTING);
 	System.out.println("Screenshot succesfully");
-	
+	}catch (Exception e)
 
 }
 @AfterMethod
