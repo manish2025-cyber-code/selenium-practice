@@ -45,7 +45,7 @@ public void test() throws IOException, InterruptedException
               .click();
         Thread.sleep(4000);
 
-        System.out.println("Login Successful");
+        System.out.println("Login Successful - master update");
         System.out.println("login ok git hub");
         System.out.println("Added");
         System.out.println("new added");
