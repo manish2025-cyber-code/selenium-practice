@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-03T23:18:58 IST" name="Default suite" finished-at="2026-07-03T23:19:15 IST" duration-ms="17732">
+  <suite started-at="2026-07-03T23:41:55 IST" name="Default suite" finished-at="2026-07-03T23:42:14 IST" duration-ms="18769">
     <groups>
     </groups>
-    <test started-at="2026-07-03T23:18:58 IST" name="Default test" finished-at="2026-07-03T23:19:15 IST" duration-ms="17732">
+    <test started-at="2026-07-03T23:41:55 IST" name="Default test" finished-at="2026-07-03T23:42:14 IST" duration-ms="18769">
       <class name="JAVA_CLass.Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:JAVA_CLass.Login@443118b0]" started-at="2026-07-03T23:18:58 IST" name="setup" finished-at="2026-07-03T23:19:06 IST" duration-ms="7770" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JAVA_CLass.Login@443118b0]" started-at="2026-07-03T23:41:55 IST" name="setup" finished-at="2026-07-03T23:42:04 IST" duration-ms="8409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:JAVA_CLass.Login@443118b0]" started-at="2026-07-03T23:19:06 IST" name="test" finished-at="2026-07-03T23:19:14 IST" duration-ms="8041" status="PASS">
+        <test-method signature="test()[pri:0, instance:JAVA_CLass.Login@443118b0]" started-at="2026-07-03T23:42:04 IST" name="test" finished-at="2026-07-03T23:42:12 IST" duration-ms="8422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:JAVA_CLass.Login@443118b0]" started-at="2026-07-03T23:19:14 IST" name="teardown" finished-at="2026-07-03T23:19:15 IST" duration-ms="1763" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JAVA_CLass.Login@443118b0]" started-at="2026-07-03T23:42:12 IST" name="teardown" finished-at="2026-07-03T23:42:14 IST" duration-ms="1825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
