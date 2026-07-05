@@ -65,6 +65,8 @@ public void test() throws IOException, InterruptedException
 	System.out.println("Screenshot succesfully");
 	}catch (Exception e) 
 	{
+		System.out.println("Screenshot failed");
+		e.printStackTrace(); 	 	
 	}
 }
 @AfterMethod
